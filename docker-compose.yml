@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:14
+    container_name: robot_postgres
+    environment:
+      POSTGRES_USER: robot
+      POSTGRES_PASSWORD: robot123
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
