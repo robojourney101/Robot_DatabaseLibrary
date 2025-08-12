@@ -60,6 +60,7 @@
 ติดตั้ง:
 - Python 3.7+
 - Docker Desktop → [ดาวน์โหลด](https://www.docker.com/products/docker-desktop)
+  ---> เปิด Docker Desktop ให้ running ไว้ด้วยนะครับ
 
 ติดตั้ง databaselibrary:
 ```bash
